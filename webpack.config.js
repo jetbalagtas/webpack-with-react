@@ -41,12 +41,12 @@ module.exports = {
             options: {
               ident: 'postcss',
               plugins: () => [
-                 autoprefixer({
-                   browsers: [
-                    "> 1%",
-                    "last 2 versions"
-                   ]
-                 })
+                autoprefixer({
+                  browsers: [
+                    '> 1%',
+                    'last 2 versions'
+                  ]
+                })
               ]
             }
           }
